@@ -1,3 +1,4 @@
+cat > package.json << 'EOF'
 {
   "name": "notion-pdf-exporter",
   "version": "1.0.0",
@@ -6,11 +7,9 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --mac --universal",
-    "build": "electron-builder --mac --universal",
+    "build": "electron-builder",
     "build:mac": "electron-builder --mac --universal",
-    "build:mac:arm64": "electron-builder --mac --arm64",
-    "build:mac:x64": "electron-builder --mac --x64"
+    "dist": "electron-builder --mac --universal"
   },
   "dependencies": {
     "puppeteer": "^22.0.0"
@@ -41,15 +40,7 @@
       "gatekeeperAssess": false,
       "entitlements": "entitlements.plist",
       "entitlementsInherit": "entitlements.plist"
-    },
-    "dmg": {
-      "title": "Notion PDF Exporter",
-      "icon": "icon.icns",
-      "iconSize": 100,
-      "window": {
-        "width": 540,
-        "height": 420
-      }
     }
   }
 }
+EOF

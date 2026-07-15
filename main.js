@@ -1,7 +1,7 @@
 const { app, BrowserWindow, dialog, ipcMain } = require('electron');
 const path = require('path');
 const fs = require('fs');
-const { spawn } = require('child_process');
+const { fork } = require('child_process');
 
 let mainWindow;
 let conversionProcess = null;
@@ -61,8 +61,11 @@ ipcMain.handle('conversion:start', async (_, sourceDir, outputDir) => {
   if (conversionProcess) conversionProcess.kill();
   
   const scriptPath = path.join(__dirname, 'convert.js');
-  conversionProcess = spawn('node', [scriptPath, sourceDir, outputDir], {
-    stdio: ['pipe', 'pipe', 'pipe']
+  
+  // Use fork - it uses the same Node runtime as Electron
+  conversionProcess = fork(scriptPath, [sourceDir, outputDir], {
+    stdio: ['pipe', 'pipe', 'pipe', 'ipc'],
+    env: process.env
   });
 
   conversionProcess.stdout.on('data', (data) => {

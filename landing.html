@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion PDF Exporter</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f7f6f3;
+            color: #1a1a18;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 18px;
+            color: #6b6860;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #2b6cb0;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+        .download-btn:hover {
+            background: #1a4f8a;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #e3e1dc;
+        }
+        .feature h3 {
+            margin: 0 0 8px 0;
+        }
+        .feature p {
+            margin: 0;
+            color: #6b6860;
+            font-size: 14px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6b6860;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Notion PDF Exporter</h1>
+        <p>Convert your entire Notion workspace to PDFs — 100% local, no subscriptions</p>
+        <a href="https://github.com/YOURUSERNAME/notion-pdf-exporter/releases" class="download-btn">Download Now</a>
+    </div>
+    
+    <div class="features">
+        <div class="feature">
+            <h3>Preserves Structure</h3>
+            <p>Subpages become subfolders with PDFs</p>
+        </div>
+        <div class="feature">
+            <h3>Keeps Formatting</h3>
+            <p>Callouts, banners, tables, and images preserved</p>
+        </div>
+        <div class="feature">
+            <h3>100% Local</h3>
+            <p>No data ever leaves your machine</p>
+        </div>
+        <div class="feature">
+            <h3>Completely Free</h3>
+            <p>No subscription, no account, no limits</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Built with Electron and Puppeteer</p>
+        <p>Open source under MIT License</p>
+    </div>
+</body>
+</html>
