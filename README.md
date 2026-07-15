@@ -33,7 +33,7 @@ This app solves that by:
 
 ### Conversion in Progress
 
-![Conversion Progress](screenshots/conversion-progress.png)
+![Conversion Progress](screenshots/Notion → PDF Exporter.png)
 
 *Live progress bar showing file-by-file conversion with detailed logs.*
 
