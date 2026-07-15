@@ -68,7 +68,6 @@ This app solves that by:
 4. Choose format: HTML
 5. Download and unzip the archive
 
-![Notion Export Settings](screenshots/notion-export.png)
 
 ### 2. Run the App
 
@@ -77,7 +76,6 @@ This app solves that by:
 3. Click Browse next to Output folder and choose where to save your PDFs
 4. Click Convert X files to PDF
 
-![App in Action](screenshots/app-action.gif)
 
 ### 3. Find Your PDFs
 
