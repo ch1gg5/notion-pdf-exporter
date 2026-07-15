@@ -1,6 +1,6 @@
 {
   "name": "notion-pdf-exporter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert Notion HTML exports to PDFs",
   "author": "ch1gg5",
   "main": "main.js",
@@ -36,7 +36,10 @@
     "mac": {
       "category": "public.app-category.productivity",
       "icon": "icon.icns",
-      "target": ["dmg", "zip"],
+      "target": [
+        "dmg",
+        "zip"
+      ],
       "hardenedRuntime": true,
       "gatekeeperAssess": false,
       "entitlements": "entitlements.plist",
