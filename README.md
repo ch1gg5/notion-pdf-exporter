@@ -2,9 +2,9 @@
 
 Convert your entire Notion workspace to PDFs -- 100 percent local, no subscriptions, no data leaving your machine.
 
-[![macOS](https://img.shields.io/badge/macOS-10.15+-blue.svg)](https://github.com/yourusername/notion-pdf-exporter)
-[![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-Ready-brightgreen.svg)](https://github.com/yourusername/notion-pdf-exporter)
-[![Intel](https://img.shields.io/badge/Intel-Ready-brightgreen.svg)](https://github.com/yourusername/notion-pdf-exporter)
+[![macOS](https://img.shields.io/badge/macOS-10.15+-blue.svg)](https://github.com/ch1gg5/notion-pdf-exporter)
+[![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-Ready-brightgreen.svg)](https://github.com/ch1gg5/notion-pdf-exporter)
+[![Intel](https://img.shields.io/badge/Intel-Ready-brightgreen.svg)](https://github.com/ch1gg5/notion-pdf-exporter)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ---
@@ -27,25 +27,19 @@ This app solves that by:
 
 ### Main App Interface
 
-![App Screenshot](screenshots/app-main.png)
+<img src="screenshots/image1.png" alt="App Screenshot" width="500"/>
 
 *Clean, native macOS interface with folder selection and progress tracking.*
 
 ### Conversion in Progress
 
-![Conversion Progress](screenshots/Notion → PDF Exporter.png)
+<img src="screenshots/image2.png" alt="Conversion Progress" width="500"/>
 
 *Live progress bar showing file-by-file conversion with detailed logs.*
 
-### Before and After: Folder Structure
-
-![Folder Structure](screenshots/folder-structure.png)
-
-*Your Notion export folder becomes an identical PDF folder structure.*
-
 ### PDF Output Example
 
-![PDF Output](screenshots/pdf-output.png)
+<img src="screenshots/image3.png" alt="PDF Output Example" width="500"/>
 
 *Preserved formatting: callouts, tables, code blocks, and images.*
 
@@ -55,7 +49,7 @@ This app solves that by:
 
 ### For Regular Users (No Technical Skills Needed)
 
-1. Download the latest `Notion PDF Exporter.app.zip` from [Releases](https://github.com/yourusername/notion-pdf-exporter/releases)
+1. Download the latest `Notion PDF Exporter.app.zip` from [Releases](https://github.com/ch1gg5/notion-pdf-exporter/releases)
 2. Unzip the file
 3. Drag `Notion PDF Exporter.app` to your Applications folder
 4. Double-click to launch
@@ -135,7 +129,7 @@ Notion Export/                ->    PDF Output/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/notion-pdf-exporter.git
+git clone https://github.com/ch1gg5/notion-pdf-exporter.git
 cd notion-pdf-exporter
 
 # Install dependencies
@@ -245,29 +239,8 @@ MIT License - free for personal and commercial use.
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/yourusername/notion-pdf-exporter/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/notion-pdf-exporter/discussions)
-
----
-
-## Screenshot Placeholder Images
-
-To create the screenshot images for your README:
-
-1. Take screenshots of the app in action
-2. Save them in a `screenshots/` folder
-3. Update the image paths in the README
-
-### Quick Screenshot Guide
-
-| Screenshot | What to capture |
-|------------|-----------------|
-| app-main.png | The main app window with empty fields |
-| conversion-progress.png | App during conversion with progress bar |
-| folder-structure.png | Finder showing source and output folders side-by-side |
-| pdf-output.png | A rendered PDF showing preserved formatting |
-| notion-export.png | Notion's export settings dialog |
-| app-action.gif | Screen recording of the conversion process |
+- Issues: [GitHub Issues](https://github.com/ch1gg5/notion-pdf-exporter/issues)
+- Discussions: [GitHub Discussions](https://github.com/ch1gg5/notion-pdf-exporter/discussions)
 
 ---
 
@@ -275,7 +248,7 @@ To create the screenshot images for your README:
 
 Get the latest release:
 
-[![Download](https://img.shields.io/github/v/release/yourusername/notion-pdf-exporter?color=blue&label=Download&style=for-the-badge)](https://github.com/yourusername/notion-pdf-exporter/releases/latest)
+[![Download](https://img.shields.io/github/v/release/ch1gg5/notion-pdf-exporter?color=blue&label=Download&style=for-the-badge)](https://github.com/ch1gg5/notion-pdf-exporter/releases/latest)
 
 ---
 
